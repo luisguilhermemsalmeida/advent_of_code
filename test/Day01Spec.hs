@@ -1,8 +1,10 @@
+module Day01Spec where
+
 import Test.Hspec
 import Day01
 
-main :: IO ()
-main = hspec $ do
+spec :: Spec
+spec = do
   describe "countIncreasesOnList" $ do
     it "should return 0 for single entry" $ do
       countIncreasesOnList [1] `shouldBe` (0 :: Int)

@@ -1,7 +1,7 @@
 name:                advent-of-code
 version:             0.1.0.0
 github:              "githubuser/advent-of-code"
-license:             BSD3
+license:             MIT
 author:              "luisguilhermemsalmeida"
 maintainer:          "almeida.luisg@gmail.com"
 
@@ -37,7 +37,7 @@ executables:
 
 tests:
   advent-of-code-test:
-    main:                Day01Spec.hs
+    main:                Spec.hs
     source-dirs:         test
     ghc-options:
     - -threaded

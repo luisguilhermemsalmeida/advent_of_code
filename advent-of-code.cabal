@@ -11,7 +11,7 @@ homepage:       https://github.com/githubuser/advent-of-code#readme
 bug-reports:    https://github.com/githubuser/advent-of-code/issues
 author:         luisguilhermemsalmeida
 maintainer:     almeida.luisg@gmail.com
-license:        BSD3
+license:        MIT
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
@@ -24,6 +24,8 @@ source-repository head
 library
   exposed-modules:
       Day01
+      Day02
+      Utils
   other-modules:
       Paths_advent_of_code
   hs-source-dirs:
@@ -48,8 +50,10 @@ executable advent-of-code-exe
 
 test-suite advent-of-code-test
   type: exitcode-stdio-1.0
-  main-is: Day01Spec.hs
+  main-is: Spec.hs
   other-modules:
+      Day01Spec
+      Day02Spec
       Paths_advent_of_code
   hs-source-dirs:
       test
