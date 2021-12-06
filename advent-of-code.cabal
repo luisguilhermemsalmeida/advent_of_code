@@ -25,6 +25,7 @@ library
   exposed-modules:
       Day01
       Day02
+      Day03
       Utils
   other-modules:
       Paths_advent_of_code
@@ -54,6 +55,7 @@ test-suite advent-of-code-test
   other-modules:
       Day01Spec
       Day02Spec
+      Day03Spec
       Paths_advent_of_code
   hs-source-dirs:
       test
