@@ -13,3 +13,6 @@ binaryStringToDecimal = foldl (\acc x -> acc * 2 + digitToInt x) 0
 
 display :: Show a => a -> a
 display x = (trace $ show x) x
+
+listMaximum :: [Int] -> Int
+listMaximum = maximum 

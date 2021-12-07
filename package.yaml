@@ -20,6 +20,7 @@ description:         Please see the README on GitHub at <https://github.com/luis
 dependencies:
 - base >= 4.7 && < 5
 - hspec
+- split
 
 library:
   source-dirs: src

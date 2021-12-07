@@ -34,13 +34,8 @@ calculateCO2ScrubberRating lines = lines
     & filterByMostCommonDigit 0 (==)
     & binaryStringToDecimal
 
-
-
 multiplyWithCompliment :: Int -> Int -> Int
 multiplyWithCompliment inputSize value = value * (2 ^ inputSize - 1 - value)
-
-withTranspose :: [String] -> ([String], [String])
-withTranspose x = (x, transpose x)
 
 filterByMostCommonDigit :: Int -> (Char -> Char -> Bool) -> [String] -> String 
 filterByMostCommonDigit step operator [line]  = line

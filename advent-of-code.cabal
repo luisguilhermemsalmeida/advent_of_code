@@ -26,6 +26,7 @@ library
       Day01
       Day02
       Day03
+      Day07
       Utils
   other-modules:
       Paths_advent_of_code
@@ -34,6 +35,7 @@ library
   build-depends:
       base >=4.7 && <5
     , hspec
+    , split
   default-language: Haskell2010
 
 executable advent-of-code-exe
@@ -47,6 +49,7 @@ executable advent-of-code-exe
       advent-of-code
     , base >=4.7 && <5
     , hspec
+    , split
   default-language: Haskell2010
 
 test-suite advent-of-code-test
@@ -56,6 +59,7 @@ test-suite advent-of-code-test
       Day01Spec
       Day02Spec
       Day03Spec
+      Day07Spec
       Paths_advent_of_code
   hs-source-dirs:
       test
@@ -64,4 +68,5 @@ test-suite advent-of-code-test
       advent-of-code
     , base >=4.7 && <5
     , hspec
+    , split
   default-language: Haskell2010
