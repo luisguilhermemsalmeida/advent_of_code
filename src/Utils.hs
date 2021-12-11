@@ -2,7 +2,7 @@ module Utils where
 
 import Debug.Trace
 import Data.List ( foldl, group, sort, maximumBy )
-import Data.Function ( on )
+import Data.Function ( on, (&) )
 import Data.Char (digitToInt)
 
 mostCommonElementOnList :: Ord a => [a] -> a
